@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+
+
+#label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 45px;
+  font-family: "Parisienne", cursive;
+  color: whitesmoke;
+text-shadow: 0px 0px 10px black;
+}
+
+
+#container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.mainDiv1 {
+  width: 250px;
+  height: 650px;
+}
+
+.mainDiv2 {
+  width: 250px;
+  height: 650px;
+}
+
+.mainDiv1 > div {
+  height: 190px;
+  display: flex;
+  margin: 15px 0;
+}
+
+.mainDiv2 > div {
+  height: 190px;
+  display: flex;
+  margin: 15px 0;
+}
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.green-b {
+  border: 3px green solid;
+}
+
+.blue-b {
+  border: 3px blue solid;
+}
+.red-b {
+  border: 3px red solid;
+}
+
